@@ -1,0 +1,8 @@
+.nav-item {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.nav-item a::after {
+    content: '| ';
+}
